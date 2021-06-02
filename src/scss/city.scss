@@ -1,0 +1,44 @@
+#city-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 15vh;
+}
+
+.loading-container {
+    width: 100vh;
+    height: 100vh;
+}
+
+.city-box {
+    img {
+        height: 156px;
+        width: 256px;
+        object-fit: cover;
+        border-radius: 5px 5px 0 0;
+        cursor: pointer;
+    }
+    h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        color: #3C3D40;
+        text-indent: 20px;
+        margin-bottom: 1.5vh;
+    }
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #617480;
+        text-indent: 20px;
+    }
+    width: 256px;
+    height: 256px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #E6E6F0;
+    margin-bottom: 2vh;
+}

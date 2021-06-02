@@ -1,0 +1,85 @@
+$primary-color: #2541B2;
+$secondary-color: #F5F8FA;
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-container {
+    display: flex;
+}
+
+.flex-side {
+    flex: 1;
+}
+
+.left {
+    background-color: $primary-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.right {
+    padding-left: 15vh;
+    padding-top: 30vh;
+    background-color: $secondary-color;
+}
+
+.login-left-side {
+    background-color: $primary-color;
+    position: fixed;
+    bottom: 0;
+    height: 100vh;
+    padding: 0;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-right-side {
+    margin-left: 50%;
+    background-color: $secondary-color;
+    height: 70vh;
+    padding-top: 30vh;
+    padding-left: 15vh;
+}
+
+.my-data {
+    font-weight: 500;
+    font-size: 32px;
+    color: #3C3D40;
+    margin-bottom: 2vh;
+    text-align: left;
+}
+
+%input-shared {
+    width: 70%;
+    height: 60px;
+    background-color: #fff;
+    color: #AEAAB7;
+    text-indent: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: 1px solid #E6E6F0;
+    margin-bottom: 2vh;
+}
+
+#user-name,
+#user-email {
+    @extend %input-shared;
+}
+
+.see-cities {
+    display: block;
+    background-color: $primary-color;
+    width: 70.5%;
+    height: 60px;
+    color: white;
+    text-align: center;
+    border: 1px solid #E6E6F0;
+    border-radius: 5px;
+    cursor: pointer;
+}

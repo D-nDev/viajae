@@ -1,0 +1,19 @@
+$primary-color: #2541B2;
+
+header {
+    img {
+        margin-left: 5vh;
+    }
+
+    p {
+        margin-right: 5vh;
+        margin-top: 1.5vh;
+        cursor: pointer;
+    }
+
+    padding: 20px;
+    background-color: $primary-color;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
